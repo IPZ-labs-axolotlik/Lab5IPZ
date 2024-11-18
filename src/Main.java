@@ -28,6 +28,9 @@ public class Main {
         // Update a cell in the table
         table.updateCell(0, 1, "UpdatedValue2");
 
+        // Detach trigger2 from the table
+        table.detach(trigger2);
+        
         // Remove a row from the table
         table.removeRow(0);
     }
